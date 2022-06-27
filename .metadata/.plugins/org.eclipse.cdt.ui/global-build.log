@@ -1,0 +1,463 @@
+09:05:39 **** Rebuild of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'actualizarRecuperados':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:49:10: error: invalid operands to binary != (have 'ePais' {aka 'struct <anonymous>'} and 'void *')
+   49 |  if(pais != NULL && recuperados > 0)
+      |          ^~
+09:06:38 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'actualizarRecuperados':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:51:10: error: 'pais' is a pointer; did you mean to use '->'?
+   51 |   if(pais.recuperados == 1)
+      |          ^
+      |          ->
+09:06:53 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
+09:16:19 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'main':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:44:7: warning: unused variable 'cadena' [-Wunused-variable]
+   44 |  char cadena[20] = "miguel";
+      |       ^~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'invertirCadena':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:75:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+   75 |  while(cadena[i++] != '\0');
+      |  ^~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:76:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   76 |  {
+      |  ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:94:9: warning: 'cadenaInvertida' is used uninitialized in this function [-Wuninitialized]
+   94 |  return cadenaInvertida;
+      |         ^~~~~~~~~~~~~~~
+gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
+09:16:46 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'main':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:44:7: warning: unused variable 'cadena' [-Wunused-variable]
+   44 |  char cadena[20] = "miguel";
+      |       ^~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'invertirCadena':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:75:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+   75 |  while(cadena[i++] != '\0');
+      |  ^~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:76:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   76 |   printf("%s escrita al reves es: ", cadena);
+      |   ^~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:93:9: warning: 'cadenaInvertida' is used uninitialized in this function [-Wuninitialized]
+   93 |  return cadenaInvertida;
+      |         ^~~~~~~~~~~~~~~
+gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
+09:19:57 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
+09:23:16 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'main':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:51:2: warning: implicit declaration of function 'invertirCadena' [-Wimplicit-function-declaration]
+   51 |  invertirCadena(cadena);
+      |  ^~~~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:96:23: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   96 |  if(cadena != NULL && strlen(cadena) > 0)
+      |                       ^~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:96:23: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Gil_Recuperatorio_Parcial1_1A.c:31:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   30 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   31 | 
+..\src\Gil_Recuperatorio_Parcial1_1A.c:102:15: warning: comparison between pointer and integer
+  102 |   if(caracter != NULL && tam > 0)
+      |               ^~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:108:18: error: subscripted value is neither array nor pointer nor vector
+  108 |       if(caracter[i] < caracter[j])
+      |                  ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:108:32: error: subscripted value is neither array nor pointer nor vector
+  108 |       if(caracter[i] < caracter[j])
+      |                                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:110:22: error: subscripted value is neither array nor pointer nor vector
+  110 |        aux = caracter[i];
+      |                      ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:16: error: subscripted value is neither array nor pointer nor vector
+  111 |        caracter[i] = caracter[j];
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:30: error: subscripted value is neither array nor pointer nor vector
+  111 |        caracter[i] = caracter[j];
+      |                              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:16: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[j] = aux;
+      |                ^
+09:23:22 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:96:23: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   96 |  if(cadena != NULL && strlen(cadena) > 0)
+      |                       ^~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:96:23: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Gil_Recuperatorio_Parcial1_1A.c:31:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   30 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   31 | 
+..\src\Gil_Recuperatorio_Parcial1_1A.c:102:15: warning: comparison between pointer and integer
+  102 |   if(caracter != NULL && tam > 0)
+      |               ^~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:108:18: error: subscripted value is neither array nor pointer nor vector
+  108 |       if(caracter[i] < caracter[j])
+      |                  ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:108:32: error: subscripted value is neither array nor pointer nor vector
+  108 |       if(caracter[i] < caracter[j])
+      |                                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:110:22: error: subscripted value is neither array nor pointer nor vector
+  110 |        aux = caracter[i];
+      |                      ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:16: error: subscripted value is neither array nor pointer nor vector
+  111 |        caracter[i] = caracter[j];
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:30: error: subscripted value is neither array nor pointer nor vector
+  111 |        caracter[i] = caracter[j];
+      |                              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:16: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[j] = aux;
+      |                ^
+09:23:29 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:96:23: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   96 |  if(cadena != NULL && strlen(cadena) > 0)
+      |                       ^~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:96:23: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Gil_Recuperatorio_Parcial1_1A.c:31:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   30 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   31 | 
+..\src\Gil_Recuperatorio_Parcial1_1A.c:102:15: warning: comparison between pointer and integer
+  102 |   if(caracter != NULL && tam > 0)
+      |               ^~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:108:18: error: subscripted value is neither array nor pointer nor vector
+  108 |       if(caracter[i] < caracter[j])
+      |                  ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:108:32: error: subscripted value is neither array nor pointer nor vector
+  108 |       if(caracter[i] < caracter[j])
+      |                                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:110:22: error: subscripted value is neither array nor pointer nor vector
+  110 |        aux = caracter[i];
+      |                      ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:16: error: subscripted value is neither array nor pointer nor vector
+  111 |        caracter[i] = caracter[j];
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:30: error: subscripted value is neither array nor pointer nor vector
+  111 |        caracter[i] = caracter[j];
+      |                              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:16: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[j] = aux;
+      |                ^
+09:23:55 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:103:15: warning: comparison between pointer and integer
+  103 |   if(caracter != NULL && tam > 0)
+      |               ^~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:18: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(caracter[i] < caracter[j])
+      |                  ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:32: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(caracter[i] < caracter[j])
+      |                                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:22: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = caracter[i];
+      |                      ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:16: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[i] = caracter[j];
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:30: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[i] = caracter[j];
+      |                              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:16: error: subscripted value is neither array nor pointer nor vector
+  113 |        caracter[j] = aux;
+      |                ^
+09:24:14 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:18: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(caracter[i] < caracter[j])
+      |                  ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:32: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(caracter[i] < caracter[j])
+      |                                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:22: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = caracter[i];
+      |                      ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:16: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[i] = caracter[j];
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:30: error: subscripted value is neither array nor pointer nor vector
+  112 |        caracter[i] = caracter[j];
+      |                              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:16: error: subscripted value is neither array nor pointer nor vector
+  113 |        caracter[j] = aux;
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:100:7: warning: variable 'caracter' set but not used [-Wunused-but-set-variable]
+  100 |   int caracter;
+      |       ^~~~~~~~
+09:24:36 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:101:20: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  101 |   int tam = strlen(cadena);
+      |                    ^~~~~~
+      |                    |
+      |                    int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:24:38 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:101:20: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  101 |   int tam = strlen(cadena);
+      |                    ^~~~~~
+      |                    |
+      |                    int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:24:58 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:101:20: error: invalid type argument of unary '*' (have 'int')
+  101 |   int tam = strlen(*cadena);
+      |                    ^~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:25:01 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:101:20: warning: passing argument 1 of 'strlen' from incompatible pointer type [-Wincompatible-pointer-types]
+  101 |   int tam = strlen(&cadena);
+      |                    ^~~~~~~
+      |                    |
+      |                    int *
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:25:04 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:101:20: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  101 |   int tam = strlen(cadena);
+      |                    ^~~~~~
+      |                    |
+      |                    int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:25:42 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:103:6: warning: implicit declaration of function 'tastrlen'; did you mean 'strlen'? [-Wimplicit-function-declaration]
+  103 |   if(tastrlen(cadena)m > 0)
+      |      ^~~~~~~~
+      |      strlen
+..\src\Gil_Recuperatorio_Parcial1_1A.c:103:22: error: expected ')' before 'm'
+  103 |   if(tastrlen(cadena)m > 0)
+      |     ~                ^
+      |                      )
+..\src\Gil_Recuperatorio_Parcial1_1A.c:105:30: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  105 |    for(int i = 0; i < strlen(cadena) - 1; i++)
+      |                              ^~~~~~
+      |                              |
+      |                              int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:107:34: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  107 |      for(int j = i+1; j < strlen(cadena); j++ )
+      |                                  ^~~~~~
+      |                                  |
+      |                                  int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:25:52 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+..\src\Gil_Recuperatorio_Parcial1_1A.c: In function 'ordenarCaracteres':
+..\src\Gil_Recuperatorio_Parcial1_1A.c:103:13: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  103 |   if(strlen(cadena) > 0)
+      |             ^~~~~~
+      |             |
+      |             int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:105:30: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  105 |    for(int i = 0; i < strlen(cadena) - 1; i++)
+      |                              ^~~~~~
+      |                              |
+      |                              int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:107:34: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  107 |      for(int j = i+1; j < strlen(cadena); j++ )
+      |                                  ^~~~~~
+      |                                  |
+      |                                  int
+In file included from ..\src\Gil_Recuperatorio_Parcial1_1A.c:31:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:16: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:109:28: error: subscripted value is neither array nor pointer nor vector
+  109 |       if(cadena[i] < cadena[j])
+      |                            ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:111:20: error: subscripted value is neither array nor pointer nor vector
+  111 |        aux = cadena[i];
+      |                    ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:14: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |              ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:112:26: error: subscripted value is neither array nor pointer nor vector
+  112 |        cadena[i] = cadena[j];
+      |                          ^
+..\src\Gil_Recuperatorio_Parcial1_1A.c:113:14: error: subscripted value is neither array nor pointer nor vector
+  113 |        cadena[j] = aux;
+      |              ^
+09:26:14 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
+Info: Nothing to build for Gil_Recuperatorio_Parcial1_1A
