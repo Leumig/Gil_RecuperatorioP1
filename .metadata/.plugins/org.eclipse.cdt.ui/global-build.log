@@ -461,3 +461,7 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
 gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
 Info: Nothing to build for Gil_Recuperatorio_Parcial1_1A
+09:36:40 **** Incremental Build of configuration Debug for project Gil_Recuperatorio_Parcial1_1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil_Recuperatorio_Parcial1_1A.o" "..\\src\\Gil_Recuperatorio_Parcial1_1A.c" 
+gcc -o Gil_Recuperatorio_Parcial1_1A.exe "src\\Gil_Recuperatorio_Parcial1_1A.o" 
